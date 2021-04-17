@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningAndroid">
-        <activity android:name=".Register"></activity>
+        <activity android:name=".AutoCompleteText"></activity>
+        <activity android:name=".ListView" />
+        <activity android:name=".Register" />
         <activity android:name=".Fragments" />
         <activity android:name=".PinchZoom" />
         <activity android:name=".MainActivity">

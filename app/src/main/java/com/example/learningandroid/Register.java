@@ -46,6 +46,7 @@ public class Register extends Fragment {
     private void dateDialog(View view){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy", Locale.US);
         Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.DATE,-1);
         calendar.setTimeInMillis(System.currentTimeMillis()-1000);
         DatePickerDialog datePickerDialog = new DatePickerDialog(view.getContext(), new DatePickerDialog.OnDateSetListener() {
             @Override
@@ -56,7 +57,6 @@ public class Register extends Fragment {
                 etDate.setText(simpleDateFormat.format(calendar.getTime()));
             }
         },calendar.get(Calendar.YEAR),calendar.get(Calendar.MONDAY),calendar.get(Calendar.DAY_OF_MONTH));
-
         datePickerDialog.show();
     }
 }

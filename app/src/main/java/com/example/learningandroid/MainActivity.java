@@ -49,13 +49,8 @@ public class MainActivity extends AppCompatActivity {
         dataSet.add(new ButtonMainModel("Spannable","SpannableActivity"));
         dataSet.add(new ButtonMainModel("PinchZoom","PinchZoom"));
         dataSet.add(new ButtonMainModel("Fragments", "Fragments"));
-//        dataSet.add("Renate");
-//        dataSet.add("Elke");
-//        dataSet.add("Ursula");
-//        dataSet.add("Erika");
-//        dataSet.add("Christa");
-//        dataSet.add("Gisela");
-//        dataSet.add("Monika");
+        dataSet.add(new ButtonMainModel("List View", "ListView"));
+        dataSet.add(new ButtonMainModel("Auto Complete", "AutoCompleteText"));
 
     }
 }
