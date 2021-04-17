@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/btn"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:text="Login"
+            android:backgroundTint="#A85858"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/btn"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/frm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
